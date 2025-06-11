@@ -1,3 +1,20 @@
+in this posta_api, below API are implemeted.
+
+ `POST /auth/verify`: Accepts a signed message and validates the 
+associated wallet address. 
+User Profile 
+● `GET /users/:wallet`: Retrieves a specific user's profile. 
+● `POST /users`: Creates or updates a user's profile. 
+Posts 
+● `GET /posts`: Returns a feed of the latest posts. 
+● `POST /posts`: Creates a new post. 
+● `POST /posts/:id/like`: Registers a "like" for a specific post. 
+● `POST /posts/:id/comment`: Adds a comment to a specific post. 
+● `GET /posts/:id`: Fetches detailed information for a specific post, 
+including its comments and likes.
+
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
